@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory"
+    tools:context="com.example.welcome1.btp1.test1">
+
+    <Button
+        android:id="@+id/audio_button1"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/audio"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="163dp"
+        android:layout_height="57dp"
+        android:layout_above="@+id/option2"
+        android:layout_alignLeft="@+id/option2"
+        android:layout_alignStart="@+id/option2"
+        android:layout_marginBottom="16dp"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option1"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="163dp"
+        android:layout_height="54dp"
+        android:layout_alignLeft="@+id/option3"
+        android:layout_alignStart="@+id/option3"
+        android:layout_centerVertical="true"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option2"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/option2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option3"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/option3"
+        android:layout_alignStart="@+id/option3"
+        android:layout_below="@+id/option3"
+        android:layout_marginTop="11dp"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option4"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/nextword"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="453dp" />
+</RelativeLayout>

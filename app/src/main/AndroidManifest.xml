@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rahul.datainsertionapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Training2" />
+        <activity android:name=".Alphaa" />
+        <activity android:name=".Alphab" />
+        <activity android:name=".Alphac" />
+        <activity android:name=".Alphad" />
+        <activity android:name=".Alphae" />
+        <activity android:name=".Alphaf" />
+        <activity android:name=".Alphag" />
+        <activity android:name=".Alphah" />
+        <activity android:name=".Alphai" />
+        <activity android:name=".Alphaj" />
+        <activity android:name=".Alphak" />
+        <activity android:name=".Alphal" />
+        <activity android:name=".Alpham" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Alphan" />
+        <activity android:name=".Alphao" />
+        <activity android:name=".Alphap" />
+        <activity android:name=".Alphaq" />
+        <activity android:name=".Alphar" />
+        <activity android:name=".Alphas" />
+        <activity android:name=".Alphat" />
+        <activity android:name=".Alphau" />
+        <activity android:name=".Alphaw" />
+        <activity android:name=".Alphax" />
+        <activity android:name=".Alphav" />
+        <activity android:name=".Alphay" />
+        <activity android:name=".Alphaz"></activity>
+    </application>
+
+</manifest>

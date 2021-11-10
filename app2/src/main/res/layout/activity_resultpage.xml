@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dust"
+    tools:context="com.example.welcome1.btp1.resultpage">
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:text="Results are as follows :"
+        android:textAlignment="center"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/test1_resultview"
+        android:layout_alignStart="@+id/test1_resultview"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="14dp"
+        android:text="TEST - 1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_below="@+id/test2_resultview"
+        android:layout_marginTop="25dp"
+        android:text="TEST - 3"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_below="@+id/test3_resultview"
+        android:layout_marginTop="16dp"
+        android:text="TEST - 4"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/test1_resultview"
+        android:layout_marginTop="20dp"
+        android:text="TEST - 2"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/test1_resultview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView16"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="19dp"
+        android:text="Test not attempted"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/test2_resultview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/test1_resultview"
+        android:layout_alignStart="@+id/test1_resultview"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="13dp"
+        android:text="Test not attempted"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/test3_resultview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/test2_resultview"
+        android:layout_alignStart="@+id/test2_resultview"
+        android:layout_below="@+id/textView20"
+        android:layout_marginTop="13dp"
+        android:text="Test not attempted"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/test4_resultview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/test3_resultview"
+        android:layout_alignStart="@+id/test3_resultview"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="13dp"
+        android:text="Test not attempted"
+        android:textSize="22sp" />
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory"
+    tools:context="com.example.welcome1.btp1.trainingpage">
+
+    <TextView
+        android:id="@+id/input_sentence"
+        android:layout_width="0dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/dust"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="37sp"
+        app:layout_constraintBottom_toTopOf="@+id/audio_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/audio_button"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/audio"
+        app:layout_constraintBottom_toTopOf="@+id/sentence_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_sentence" />
+
+    <Button
+        android:id="@+id/sentence_button"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/ok"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/audio_button" />
+
+    <Button
+        android:id="@+id/previous_button"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/previous"
+        app:layout_constraintBaseline_toBaselineOf="@+id/next_button"
+        app:layout_constraintEnd_toStartOf="@+id/next_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="103dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/next"
+        app:layout_constraintBottom_toTopOf="@+id/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/previous_button"
+        app:layout_constraintTop_toBottomOf="@+id/sentence_button" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/quit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next_button" />
+</android.support.constraint.ConstraintLayout>

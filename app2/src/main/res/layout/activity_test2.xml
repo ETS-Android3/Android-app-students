@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ivory"
+    tools:context="com.example.welcome1.btp1.test2">
+
+
+    <Button
+        android:id="@+id/audio_button1"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
+        android:layout_above="@+id/input_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/audio"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="163dp"
+        android:layout_height="57dp"
+        android:layout_above="@+id/option2"
+        android:layout_alignLeft="@+id/option2"
+        android:layout_alignStart="@+id/option2"
+        android:layout_marginBottom="16dp"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option1"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="163dp"
+        android:layout_height="54dp"
+        android:layout_alignLeft="@+id/option3"
+        android:layout_alignStart="@+id/option3"
+        android:layout_centerVertical="true"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option2"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/option2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option3"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="163dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/option3"
+        android:layout_alignStart="@+id/option3"
+        android:layout_below="@+id/option3"
+        android:layout_marginTop="13dp"
+        android:background="@color/light_blue"
+        android:onClick="onclick_opt_button"
+        android:text="option4"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/nextword"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/input_label"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/option1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

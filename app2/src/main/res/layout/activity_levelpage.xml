@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dust"
+    tools:context="com.example.welcome1.btp1.levelpage">
+
+    <TextView
+        android:id="@+id/level_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="hii"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/training_word_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/level_title"
+        android:layout_marginTop="30dp"
+        android:text="Training - 1"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/match_word_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/training_word_button"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_blue"
+        android:text="Test - 1"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/match_alphabet_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/match_word_button"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_blue"
+        android:text="Test - 2"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/fill_alphabet_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/match_alphabet_button"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_blue"
+        android:text="Test - 3"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/training_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fill_alphabet_button"
+        android:layout_marginTop="20dp"
+        android:text="Training - 2"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/testing_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/training_button"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_blue"
+        android:text="Test - 4"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/result_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/testing_button"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_blue"
+        android:text="VIEW RESULTS"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/homepage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/pink"
+        android:text="Back to Home Page"
+        android:textSize="21sp" />
+
+
+
+
+
+
+</RelativeLayout>
