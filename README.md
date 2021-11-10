@@ -1,4 +1,5 @@
 # Android-app-students
-A basic android application for learning (pre-school).
-This android app is created to work alongside another browser-based app.
-This android app can work standalone also.
+Basic android applications for learning (pre-school).
+This directory contains two android applications
+These android apps are created to work alongside another browser-based app.
+These android apps can work standalone also.
